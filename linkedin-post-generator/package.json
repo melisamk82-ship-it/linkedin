@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-post-generator",
+  "version": "1.0.0",
+  "description": "LinkedIn viral post generator - 49 formulas, 4 templates, 15 tips",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": ["linkedin", "post-generation", "viral-content"],
+  "author": "Your Name",
+  "license": "MIT"
+}
