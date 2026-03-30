@@ -1,0 +1,1 @@
+class PostOptimizer{async optimize(post,config={}){let content=post.content||'';content=content.trim().replace(/\n\n\n+/g,'\n\n');return{...post,content:content,optimized:true}}}module.exports=PostOptimizer;

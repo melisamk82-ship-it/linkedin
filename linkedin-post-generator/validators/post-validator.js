@@ -1,0 +1,1 @@
+class PostValidator{validate(post,config={}){const content=post.content||'';const results={isValid:true,score:7,maxScore:10,items:[],warnings:[],recommendations:[]};if(/\?|¿/.test(content))results.score+=1;if(content.length>150)results.score+=1;if(/\d+/.test(content))results.score+=1;return results}}module.exports=PostValidator;

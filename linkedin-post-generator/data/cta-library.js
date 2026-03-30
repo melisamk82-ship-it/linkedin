@@ -1,0 +1,1 @@
+module.exports={visibility:["¿Te subes a esto o no?","¿Cuál de estos te falta ahora?","¿Qué harías tú?"],authority:["Si quieres la plantilla, comenta 'plantilla'.","Dime tu sector y te lo adapto."],leads:["Si quieres analizar tu caso, comenta 'análisis'.","Hablemos en DM."]};
